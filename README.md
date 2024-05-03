@@ -7,7 +7,7 @@ This project attempts to push [BitNetMCU](https://github.com/cpldcpu/BitNetMCU) 
 
 Only weeks ago, my resounding answer would have been: "NO". But after the surprisingly good performance of BitNetMCU, I decided to give it a try. 
 
-This code achieves 90.1% test accuracy on test images scaled to 8x8 pixels while consuming 59 of 64 bytes of RAM and 972 of 1024 words of program memory. See blog for a few more details.
+This code achieves 90.1% test accuracy on test images scaled to 8x8 pixels while consuming 59 of 64 bytes of RAM and 972 of 1024 words of program memory. [See blog](https://cpldcpu.wordpress.com/2024/05/02/machine-learning-mnist-inference-on-the-3-cent-microcontroller/) for a few more details. The training code can be found in [this branch](https://github.com/cpldcpu/BitNetMCU/tree/pdk) of BitNetMCU
 
 ## Project structure
 
