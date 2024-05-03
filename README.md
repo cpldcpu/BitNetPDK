@@ -1,5 +1,5 @@
 
-# MNIST inference on the "3 cent" PMS150C Microcontroller.
+# MNIST inference on the "3 cent" Microcontroller.
 
 This project attempts to push [BitNetMCU](https://github.com/cpldcpu/BitNetMCU) to the absolute limit: Is it possible to implement reasonably accurate inference of MNIST, the handwritten numbers dataset, on a "3 cent" Microcontroller with only 64 bytes of RAM and 1K of instruction memory? 
 
