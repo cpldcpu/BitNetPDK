@@ -25,7 +25,9 @@ This code achieves 90.1% test accuracy on test images scaled to 8x8 pixels while
 
 !!! **Use SDCC 4.1.0 to build. Later versions create broken code** !!!
 
-To build the project, you need to have the [FreePDK toolchain](https://free-pdk.github.io/) installed. The default target is the PFS154, but you can change it to the PMS150C by editing the makefile. Currently, monitoring output is only supported with PFS154 as a target and the UART functions will not be included if PMS150C is selected.
+This is a hack, don't expect it to be useful for anything. 
+
+If you still want to build the project, you need to have the [FreePDK toolchain](https://free-pdk.github.io/) installed. The default target is the PFS154, but you can change it to the PMS150C by editing the makefile. Currently, monitoring output is only supported with PFS154 as a target and the UART functions will not be included if PMS150C is selected.
 
 1. Navigate to the `src/` directory.
 2. Run `make flash` to build and flash the project
